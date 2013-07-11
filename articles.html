@@ -1,0 +1,192 @@
+mic-project
+===========
+
+Artyom Martirosyan's Project
+<html>
+<head>
+<title>Articles</title>
+<link href="http://armproject.zz.mu/IMG/favicon.ico" rel="icon" type="image/x-icon">
+<meta name="description" content="Project">
+<meta name="keywords" content="HTML,CSS,JavaScript,">
+<meta name="author" content="Artyom Martirosyan">
+<meta charset="UTF-8">
+<style>
+*{
+  margin:0;
+	padding:0;
+}
+body {background:grey;}
+.main {overflow:hidden;
+       width:90%;
+       margin-left:5%;
+       margin-right:5%;
+	  }
+.header	{background-color:white;
+          height:150px;
+		  width:100%;
+		       }  
+.header IMG {margin-top:10px;}	
+div#logo:hover { 
+	    	opacity: 0.6;}	
+.share		{float:right;
+			 padding:1%;
+			 width:30%;
+			 margin-top:6%;}
+.share  img	{width:15%;height:48px;}
+.page{
+	margin:0 auto;
+	width:100%;
+}
+ul{
+	list-style:none;
+	width:100%;
+	height:40px;
+	background:#000 url(images/bg-nav.gif) top left repeat-x;
+}
+ul li{
+	float:left;
+	border-right:1px solid #333;
+}
+ul li a{
+	display:block;
+	height:40px;
+	padding:0 35px;
+	float:left;
+	text-transform: uppercase;
+	font:70%/40px Helvetica,"microsoft sans serif",arial,sans-serif;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+}
+ul li a:hover,
+ul li.active a{
+	background-color:00b7ea; top left repeat-x;
+}
+.post {background-color:white;
+     width:75%;
+     float:left;}
+.block {background-color:white;
+        float:left;
+		margin-left:3%;
+		width:22%;
+		text-align:center;}
+.post img {display:block;float:left;clear:left;margin:0 0;}
+.articles{
+		  padding:1%;
+		  float:left;
+		  width:90%;}
+.title {width:100%;
+		border:1px solid black;}
+.title:hover {background-color:00b7ea;}
+.message img {float:left;
+			  width:30%;
+			  border:1px solid black;}
+.message {overflow:hidden;border:1px solid black;width:100%;height:180px}
+.message:hover {background-color:00b7ea;}		  
+nav {background: rgb(0,183,234); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYjdlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDllYzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-8 */
+
+		color:white;
+		height:35px;
+        font-size:20;}	
+.register button {color:white;width:100%;height:50px; background-color:3f4c6b;font-size:25;
+}
+.sign	{width:100%;}
+.sign button {width:30%;height:25px;}
+.footer {background-color:black;
+            color:white;
+            float:left;
+            width:100%;
+            font-size:21px;}	
+	   </style>
+
+</head>
+<body>
+<div class="main">
+<div class="header">
+<div class="share">
+<a href="https://www.facebook.com/"><img src="http://armproject.zz.mu/IMG/Social/facebook.png"/></a>
+<a href="http://www.linkedin.com/"><img src="http://armproject.zz.mu/IMG/Social/linkedin.png"/></a>
+<a href="https://twitter.com/"><img src="http://armproject.zz.mu/IMG/Social/twitter.png"/></a>
+<a href="https://www.tumblr.com/"><img src="http://armproject.zz.mu/IMG/Social/tumblr.png"/></a>
+<a href="http://www.youtube.com/"><img src="http://armproject.zz.mu/IMG/Social/youtube.png"/></a>
+<a href="/"><img src="http://armproject.zz.mu/IMG/Social/rss.png"/></a>
+</div>
+<div id="logo">
+<a href="http://armproject.zz.mu/default.php"><IMG src="http://armproject.zz.mu/IMG/Logo.png"/></a>
+</div>
+</div>
+<div class="menu">
+<ul>
+<li><a href="http://armproject.zz.mu/Startup.html">Startup</a></li>
+<li><a href="http://armproject.zz.mu/Articles.html">Articles</a></li>
+<li><a href="http://armproject.zz.mu/Resources.html">Resources</a></li>
+<li><a href="http://armproject.zz.mu/Projects.html">Projects</a></li>
+<li><a href="http://armproject.zz.mu/Teams.html">Teams</a></li>
+</label>
+</ul>
+<div class="post">
+<div class="articles">
+<a href="/"><div class="title">
+<h4>Microsoft</h4>
+</div></a>
+<div class="message">
+<img src="http://ncontent.life.ru/media/2/news/2013/03/111460/url.jpeg">
+<p>Microsoft Corporation («корпорация Microsoft»; читается «ма́йкрософт корпоре́йшн»[2][прим. 1]; NASDAQ: MSFT) — одна из крупнейших транснациональных компаний по производству проприетарного программного обеспечения для различного рода вычислительной техники — персональных компьютеров, игровых приставок, КПК, мобильных телефонов и прочего, разработчик наиболее широко распространённой на данный момент в мире программной платформы[3] — семейства операционных систем Windows.
+Подразделения компании также производят семейство игровых консолей Xbox, а также аксессуары для персональных компьютеров (клавиатуры, мыши и т. д.[4]). C 2012 года производит собственный планшетный компьютер — Surface и игровой планшетный компьютер Xbox Surface. Продукция Microsoft продаётся более чем в 80 странах мира, программы переведены более чем на 45 языков.</p>
+</div>
+</div>
+<div class="articles">
+<a href="/"><div class="title">
+<h4>Google</h4>
+</div></a>
+<div class="message">
+<img src="http://info.nic.ru/sites/default/files/google.jpg">
+<p>Google began in March 1996 as a research project by Bimarsha , Ph.D. students at Stanford[1] working on the Stanford Digital Library Project (SDLP). The SDLP's goal was “to develop the enabling technologies for a single, integrated and universal digital library" and was funded through the National Science Foundation among other federal agencies.[2][3][4][5] In search for a dissertation theme, Page considered—among other things—exploring the mathematical properties of the World Wide Web, understanding its link structure as a huge graph.[6] His supervisor Terry Winograd encouraged him to pick this idea (which Page later recalled as "the best advice I ever got"[7]) and Page focused on the problem of finding out which web pages link to a given page, considering the number and nature of such backlinks to be valuable information about that page (with the role of citations in academic publishing in mind).[6] In his research project, nicknamed "BackRub", he was soon joined by Sergey Brin, a fellow Stanford Ph.D. student supported by a National Science Foundation Graduate Fellowship.[2] Brin was already a close friend, whom Page had first met in the summer of 1995 in a group of potential new students which Brin had volunteered to show around the campus.[6] Page's web crawler began exploring the web in March 1996, setting out from Page's own Stanford home page as its only starting point.[6] To convert the backlink data that it gathered into a measure of importance for a given web page, Brin and Page developed the PageRank algorithm.[6] Analyzing BackRub's output—which, for a given URL, consisted of a list of backlinks ranked by importance—it occurred to them that a search engine based on PageRank would produce better results than existing techniques (existing search engines at the time essentially ranked results according to how many times the search term appeared on a page).[6][8]
+A small search engine called "RankDex" from IDD Information Services (a subsidiary of Dow Jones) designed by Robin Li was, since 1996, already exploring a similar strategy for site-scoring and page ranking.[9] The technology in RankDex would be patented[10] and used later when Li founded Baidu in China.[11][12]</div>
+</div>
+</div>
+<div class="block">
+<a href="#"><div class="register">
+<button>Register</button>
+</div></a>
+<nav>Sign in</nav>
+<div class="sign">
+E-mail:
+<br>
+<input type="e-mail"/>
+<br>
+Password
+<br>
+<input type="password"/>
+<br>
+<button>Log In</button>
+<br>
+</div>
+<nav>Paruyr Sevak</nav>
+Պարույր Սևակ 1924 -1971 Ծնվել է 1924 թվականի Հունվարի 24-ին Արարատի շրջանի 
+Չանախչի (ներկայիս Զանգակատուն, Արարատի մարզ) գյուղում։ Պարույրը իր 
+ծնողների երկրորդ զավակն էր, սակայն առաջնեկի փոքր տարիքում մահի 
+արդյունքում նա դառնում է ընտանիքի միակ երեխան։ Գրել ու կարդալ նա 
+սկսել է հինգ տարեկանից։ Նույն տարիքից էլ Պարույրը սկսում է հաճախել 
+դպրոց, սակայն սկզբում, քանի որ տարիքը թույլ չէր տալիս օրինական դպրոց 
+գնալ, նրա հաճախումները ոչ լեգալ բնույթ էին կրում։ Նրա գերազանց
+ առաջադիմության պատճառով, ուսուցիչը թույլատրում է օրինական
+ կարգով գրանցվել դպրոցում և շարունակել ուսումը։ Պարույրը մանկական 
+հասակից շատ էր կարդում, իսկ տասնմեկ տարեկանում առաջին անգամ 
+իր գրիչն է փորձում պոեզիայում։
+</div>
+<div class="footer">
+<p>Copyright© 2013 All right reserved.</p>
+</div>
+</div>
+</body>
+</html>
